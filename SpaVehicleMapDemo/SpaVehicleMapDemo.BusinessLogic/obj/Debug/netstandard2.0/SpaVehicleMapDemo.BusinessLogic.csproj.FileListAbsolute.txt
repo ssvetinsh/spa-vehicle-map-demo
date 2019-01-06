@@ -1,0 +1,9 @@
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\bin\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.deps.json
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\bin\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.dll
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\bin\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.pdb
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\obj\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.csprojAssemblyReference.cache
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\obj\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\obj\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.AssemblyInfoInputs.cache
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\obj\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.AssemblyInfo.cs
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\obj\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.dll
+D:\Projects\SpaVehicleMapDemo\SpaVehicleMapDemo\SpaVehicleMapDemo.BusinessLogic\obj\Debug\netstandard2.0\SpaVehicleMapDemo.BusinessLogic.pdb

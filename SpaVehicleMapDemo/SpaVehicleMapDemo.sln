@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaVehicleMapDemo.Web", "SpaVehicleMapDemo.Web\SpaVehicleMapDemo.Web.csproj", "{58F2DCCD-7C55-499C-A8DF-8B2ED7EF7C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaVehicleMapDemo.BusinessLogic", "SpaVehicleMapDemo.BusinessLogic\SpaVehicleMapDemo.BusinessLogic.csproj", "{56845445-6EF3-4B77-A82E-6BAA332A585C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58F2DCCD-7C55-499C-A8DF-8B2ED7EF7C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F2DCCD-7C55-499C-A8DF-8B2ED7EF7C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F2DCCD-7C55-499C-A8DF-8B2ED7EF7C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F2DCCD-7C55-499C-A8DF-8B2ED7EF7C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56845445-6EF3-4B77-A82E-6BAA332A585C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56845445-6EF3-4B77-A82E-6BAA332A585C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56845445-6EF3-4B77-A82E-6BAA332A585C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56845445-6EF3-4B77-A82E-6BAA332A585C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A25B7C-5F2A-4A4F-A85F-9D20935BB21F}
+	EndGlobalSection
+EndGlobal

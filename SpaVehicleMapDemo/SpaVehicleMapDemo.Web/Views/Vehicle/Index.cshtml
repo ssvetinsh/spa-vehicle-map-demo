@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Vehicles";
+}
+
+<div id="bodyContainer" ng-app="VehicleApp">
+    <section id="content">
+        <div class="container flip-container" ng-controller="VehicleCtrl" ng-init="init()">
+            <div class="user-vehicle-data" ng-repeat="owner in owners">
+                <div class="row user-data">
+                    <div class="col-sm-2">
+                        <div class="owner-picture" style="background-image: url('{{owner.PhotoUrl}}');"></div>
+                    </div>
+                    <div class="user-name col-sm-3">
+                        {{owner.Name}} {{owner.Surname}}
+                    </div>
+                    <div class="vehicle-count col-sm-3">
+                        Vehicles: {{owner.Vehicles.length}}
+                    </div>
+                    <div class="user-buttons col-sm-3">
+                        <button type="button" class="btn btn-primary btn-lg" ng-click="toggleVehicleList(owner.UserId)">{{isUserSelected(owner.UserId) ? "Hide" : "Show"}} Vehicles</button>
+                    </div>
+                </div>
+                <div class="vehicle-list row" ng-hide="!isUserSelected(owner.UserId)">
+                    <div class="col-sm-6">
+                        <div class="vehicle-info" ng-repeat="vehicle in owner.Vehicles" ng-class="{'active' : isVehicleSelected(vehicle.Id)}">
+                            <div class="vehicle-picture" style="background-image: url('{{vehicle.PhotoUrl}}'); border-color: {{vehicle.ColorCode}};"></div>
+                            <div class="vehicle-buttons">
+                                <button class="select-vehicle-btn btn btn-defautl" ng-click="toggleVehicle(vehicle.Id)">{{isVehicleSelected(vehicle.Id) ? "Deselect" : "Select"}}</button>
+                            </div>
+                            <div class="vehicle-data">
+                                {{vehicle.Manufacturer}} {{vehicle.Model}} ({{vehicle.Year}})<br />
+                                <span class="vehicle-color" style="background: {{vehicle.ColorCode}};"></span> Vin: {{vehicle.Vin}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div id="vehicleMap{{owner.UserId}}" class="vehicle-map" data-user-id="{{owner.UserId}}"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section scripts {
+    @Scripts.Render("~/Scripts/angular.js")
+    @Scripts.Render("~/Scripts/ol.js")
+    @Scripts.Render("~/Scripts/app/vehicle-controller.js")
+}
